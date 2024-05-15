@@ -513,7 +513,7 @@ def main_menu():
     while True:
  
         screen.fill((38,38,38))
-        draw_text('Main Menu', font, (0,255,0), screen, 550, 40)
+        draw_text('Maze Dash: Dueling Duos', font, (0,255,0), screen, 550, 40)
 
         mx, my = pg.mouse.get_pos()
 
